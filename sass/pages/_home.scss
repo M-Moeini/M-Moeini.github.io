@@ -2,11 +2,13 @@
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
+      rgba($themeClrPrimary, 0),
+      rgba($themeClrPrimary, 0)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(../../assets/jpeg/profile2.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 70px;
 
   height: 100vh;
 

@@ -325,7 +325,7 @@ textarea {
       margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
-          /* text-align: justify; */
+          text-align: justify;
           font-size: 1.7rem; } }
 
 .contact {

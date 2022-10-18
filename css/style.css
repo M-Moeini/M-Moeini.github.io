@@ -195,8 +195,10 @@ textarea {
   position: relative; }
   @media only screen and (max-width: 37.5em) {
     .home-hero {
+      
       height: unset;
-      min-height: unset; } }
+      min-height: unset; 
+      padding-top: 20px;} }
   .home-hero__socials {
     position: absolute;
     top: 50%;

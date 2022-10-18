@@ -266,6 +266,7 @@ textarea {
         .about__content-title {
           font-size: 2.4rem; } }
     .about__content-details-para {
+      text-align: justify;
       font-size: 1.8rem;
       color: grey;
       max-width: 60rem;
@@ -293,7 +294,8 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
-    overflow: hidden; }
+    overflow: hidden;
+  margin-top: 32px; }
   .projects__row-img {
     width: 100%;
     display: block;
@@ -315,6 +317,7 @@ textarea {
         .projects__row-content-title {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
+      text-align: justify;
       font-size: 1.8rem;
       color: grey;
       max-width: 60rem;
@@ -322,6 +325,7 @@ textarea {
       margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
+          text-align: justify;
           font-size: 1.7rem; } }
 
 .contact {

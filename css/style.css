@@ -471,10 +471,13 @@ textarea {
   .contact__btn {
     width: 30%;
     padding: 2rem 4rem;
-    font-size: 1.6rem; }
+    font-size: 1.6rem; 
+    margin: 0 auto;
+    display: block;}
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
-        width: 100%; } }
+        width: 100%;
+        margin: 0; } }
 
 .project-cs-hero {
   color: #fff;

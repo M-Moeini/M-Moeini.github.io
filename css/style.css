@@ -735,19 +735,28 @@ textarea {
     @media only screen and (max-width: 56.25em) {
       .main-footer__lower {
         padding: 3.5rem 0; } }
-
-.skills {
-  display: flex;
-  flex-wrap: wrap; }
-  .skills__skill {
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1.6rem;
-    background: rgba(153, 153, 153, 0.2);
-    border-radius: 5px;
-    font-weight: 600;
-    color: #777; }
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .skills__skill {
+          padding: 1rem 2rem;
+          margin-bottom: 1.5rem;
+          margin-right: 1.5rem;
+          font-size: 1.6rem;
+          background: rgba(153, 153, 153, 0.2);
+          border-radius: 5px;
+          font-weight: 600;
+          color: #777;
+          border: 3px solid #000; /* Default border */
+        }
+        
+        .skills__section {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+        }
+        
 
 .mouse {
   width: 25px;
